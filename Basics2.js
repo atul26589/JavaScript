@@ -1,0 +1,10 @@
+var marks=[10,2,3,4,5,6,7,89]
+marks.push(65)
+console.log(marks)
+marks.pop()
+console.log("******************************************************************")
+console.log(marks)
+marks.unshift(12)
+console.log(marks)
+console.log(marks.indexOf(89))
+console.log(marks.includes(65))
